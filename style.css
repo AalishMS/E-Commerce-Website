@@ -1,0 +1,66 @@
+/* Festival section */
+.festivals{
+    padding:40px;
+    background:#fff7f2;
+}
+
+.festival-box{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-left:5px solid #8B0000;
+    border-radius:8px;
+}
+
+/* Visitor tips */
+.tips{
+    padding:40px;
+}
+
+.tips-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px,1fr));
+    gap:20px;
+}
+
+.tip{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.tip h3{
+    margin-bottom:10px;
+    color:#8B0000;
+}
+
+/* Checklist */
+.checklist{
+    padding:40px;
+    background:#f3f3f3;
+}
+
+.checklist ul{
+    max-width:700px;
+    margin:auto;
+    line-height:2;
+}
+
+/* Button */
+.back-home{
+    text-align:center;
+    padding:30px;
+}
+
+.btn{
+    text-decoration:none;
+    background:#8B0000;
+    color:white;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#600000;
+}
