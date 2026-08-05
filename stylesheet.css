@@ -21,12 +21,49 @@ body {
 
 .hero {
     text-align: center;
-    padding: clamp(4rem, 12vw, 7rem) 1.5rem;
+    padding: 0 1.5rem clamp(4rem, 12vw, 7rem);
     background: linear-gradient(180deg, #fbf6ec 0%, var(--beige) 100%);
 }
 
+.navbar {
+    padding-top: 1.25rem;
+}
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list a {
+    display: inline-block;
+    padding: 0.35rem 0.9rem;
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 999px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.navbar-list a:hover {
+    color: var(--deep-red);
+    background-color: #eadfc8;
+}
+
+.navbar-list a[aria-current="page"] {
+    color: var(--cream);
+    background-color: var(--deep-red);
+}
+
+.navbar-list a[aria-current="page"]:hover {
+    background-color: var(--deep-red-dark);
+}
+
 .hero-title {
-    margin: 0 auto 1rem;
+    margin: clamp(2.5rem, 6vw, 4rem) auto 1rem;
     max-width: 20ch;
     font-size: clamp(2rem, 6vw, 3.5rem);
     line-height: 1.2;
