@@ -15,10 +15,3 @@ h2{
 p, li{
     font-size: 18px;
 }
-
-a{
-    text-decoration: none;
-    color: white;
-    background: darkred;
-    padding: 10px 15px;
-}
