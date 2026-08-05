@@ -5,28 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
     <link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-global.css">
     <style>
-        :root{
-            --ink:      #241a14;   /* dark carved wood */
-            --ink-soft: #4a382d;
-            --parchment:#f4e9cf;   /* stone/paper background */
-            --surface:  #fdf7e9;   /* card surface, lighter parchment */
-            --brick:    #a8462e;   /* fired clay brick */
-            --brick-deep:#7c3220;
-            --maroon:   #6e1423;   /* temple wood / attire red */
-            --maroon-deep:#4a0c17;
-            --indigo:   #1e3a5f;   /* paubha-painting dusk blue */
-            --indigo-deep:#122439;
-            --gold:     #c89b3c;   /* brass / gilt */
-            --gold-light:#e8c878;
-            --line:     rgba(36,26,20,0.14);
-
-            --font-display: 'Yatra One', serif;
-            --font-body: 'Mukta', sans-serif;
-
-            --container: 1180px;
-            --radius: 6px;
-        }
         .heading {
             text-align: center;
             color: var(--ink);
@@ -39,39 +19,6 @@
             font-size:16px;
             line-height:1.6;
         }
-        header{
-            position:sticky; top:0; z-index:50;
-            background:rgba(244,233,207,0.92);
-            backdrop-filter:blur(6px);
-            border-bottom:1px solid var(--line);
-        }
-        .navbar{
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            padding:16px 28px;
-            max-width:var(--container);
-            margin:0 auto;
-        }
-        .brand{
-            display:flex; align-items:center; gap:12px;
-            font-family:var(--font-display);
-            font-size:1.35rem;
-            color:var(--maroon-deep);
-        }
-
-        .nav-links{
-            display:flex;
-            align-items:center;
-            gap:34px;
-        }
-        .nav-links a{
-            font-weight:600;
-            font-size:.98rem;
-            color:var(--ink-soft);
-            position:relative;
-            padding:4px 2px;
-        }
     </style>
 </head>
 <body>
@@ -82,7 +29,7 @@
     <nav class="nav-links">
       <a href="#places">Places to Visit</a>
       <a href="foods.html">Food &amp; Where to Eat</a>
-      <a href="#culture">Culture &amp; Events</a>
+      <a href="culture.html">Culture &amp; Events</a>
       <a href="#top" class="nav-cta">Start Exploring</a>
     </nav>
   </div>
