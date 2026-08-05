@@ -35,9 +35,16 @@ header{
 }
 .brand{
     display:flex; align-items:center; gap:12px;
+    text-decoration:none;
     font-family:var(--font-display);
     font-size:1.35rem;
     color:var(--maroon-deep);
+    transition:color .15s;
+}
+.brand:hover,
+.brand:focus-visible,
+.brand:active{
+    color:var(--maroon);
 }
 .nav-links{
     display:flex;
@@ -45,9 +52,22 @@ header{
     gap:34px;
 }
 .nav-links a{
+    text-decoration:none;
     font-weight:600;
     font-size:.98rem;
     color:var(--ink-soft);
     position:relative;
     padding:4px 2px;
+    transition:color .15s;
+}
+.nav-links a:hover{
+    color:var(--maroon);
+}
+.brand.active,
+.nav-links a.active{
+    color:var(--maroon);
+}
+
+.nav-links a:active{
+    color:var(--maroon);
 }

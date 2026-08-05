@@ -1,7 +1,10 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 30px;
+    margin: 0;
     background-color: #f5f5f5;
+}
+.content{
+    margin:30px;
 }
 
 h1{
