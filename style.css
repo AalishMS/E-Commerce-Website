@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    margin:0;
+}
+
+nav{
+    background-color:maroon;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+h1{
+    text-align:center;
+    color:maroon;
+}
+
+h2{
+    margin-left:20px;
+    color:#333;
+}
+
+.box{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:15px;
+    border:1px solid #ccc;
+}
+
+.box img{
+    width:100%;
+    height:250px;
+}
+
+.box h3{
+    color:maroon;
+}
+
+.box p{
+    font-size:16px;
+}
