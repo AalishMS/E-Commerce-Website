@@ -6,19 +6,24 @@
     <title>Places to Visit in Patan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-global.css">
     <link rel='stylesheet' href='style-places.css'>
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar" aria-label="Main navigation">
-            <ul class="navbar-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="places.html" aria-current="page">Places to Visit</a></li>
-                <li><a href="#">Foods</a></li>
-                <li><a href="#">Culture</a></li>
-            </ul>
-        </nav>
+    <header>
+    <div class="navbar">
+    <a href="index.html" class="brand"> Explore Patan </a>
+
+    <nav class="nav-links">
+      <a href="places.html" class="active">Places to Visit</a>
+      <a href="foods.html">Food &amp; Where to Eat</a>
+      <a href="culture.html">Culture &amp; Events</a>
+      <a href="#top" class="nav-cta">Start Exploring</a>
+    </nav>
+  </div>
+    </header>
+    <div class="hero">
         <h1 class="hero-title">Places to Visit in Patan</h1>
         <p class="hero-text">
             Step into the ancient Newari city of Patan. Its a living museum of
@@ -26,7 +31,7 @@
             Kathmandu Valley.
         </p>
         <a class="btn-primary" href="#attractions">Plan Your Visit</a>
-    </header>
+    </div>
 
     <main>
         <section class="attractions" id="attractions">
